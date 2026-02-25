@@ -6,12 +6,12 @@ return {
 	},
 	opts = {
 		servers = {
-			tsserver = {},
+			ts_ls = {},
 			eslint = {},
 			pyright = {},
       emmet_ls = {},
       tailwindcss = {},
 		},
-		ensure_installed = { "tsserver", "eslint", "pyright", "html", "emmet_ls", "tailwindcss" },
+		ensure_installed = { "ts_ls", "eslint", "pyright", "html", "emmet_ls", "tailwindcss" },
 	},
 }
